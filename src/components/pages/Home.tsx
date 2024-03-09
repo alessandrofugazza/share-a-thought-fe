@@ -1,7 +1,7 @@
 export const Home = () => {
   return (
     <section className="home">
-      <p className="fade-in-and-move">Like a dream &hellip;</p>
+      <p className="intro-text">Like a dream &hellip;</p>
     </section>
   );
 };
