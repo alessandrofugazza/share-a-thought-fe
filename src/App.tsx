@@ -1,6 +1,7 @@
 import React from "react";
 import "./assets/styles/App.scss";
-import { Home } from "./components/pages/Home";
+import { Home } from "./components/pages/home/Home";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         </a> */}
       {/* </header> */}
       <main>
-        <Home />
+        <Container>
+          <Home />
+        </Container>
       </main>
     </div>
   );
