@@ -12,11 +12,11 @@ function App() {
           Learn React
         </a> */}
       {/* </header> */}
-      <main>
-        <Container>
+      <Container>
+        <main>
           <Home />
-        </Container>
-      </main>
+        </main>
+      </Container>
     </div>
   );
 }
